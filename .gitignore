@@ -1,4 +1,4 @@
-.gradle
+.gradle/
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
@@ -11,10 +11,8 @@
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+.idea/
+
 
 ### NetBeans ###
 nbproject/private/
@@ -23,3 +21,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+web-chatroom-stomp.iml
