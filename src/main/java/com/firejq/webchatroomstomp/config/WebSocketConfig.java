@@ -7,8 +7,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 
 /**
- * <p>Title: </p>
- * <p>Description: </p>
+ * <p>Title: </p> <p>Description: </p>
  *
  * @author <a href="mailto:firejq@outlook.com">firejq</a>
  * @date 2017/8/30
@@ -19,6 +18,7 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
 
 	/**
 	 * 广播消息代理
+	 *
 	 * @param registry
 	 */
 	@Override

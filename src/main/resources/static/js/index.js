@@ -37,11 +37,11 @@ const connect = () => {
       // 订阅广播消息
       const subscription_broadcast = stompClient.subscribe('/topic/getResponse',
         (response) => {
-        if (response.body) {
-          printToScreen("【广播】" + response.body);
-        } else {
-          printToScreen("收到一个空消息");
-        }
+          if (response.body) {
+            printToScreen("【广播】" + response.body);
+          } else {
+            printToScreen("收到一个空消息");
+          }
       });
 
       // 订阅私人消息
